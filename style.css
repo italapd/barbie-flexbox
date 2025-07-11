@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  background-color: #ffe0f0;
+  color: #4b004b;
+}
+
+.page-wrapper {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Rodapé com Flexbox */
+.main-footer {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  gap: 10px;
+}
+
+.main-footer a {
+  flex: 1 1 30%;
+  text-align: center;
+  background-color: #ff6ec7;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  text-decoration: none;
+  min-width: 120px;
+}
+
+/* Seção de Benefícios */
+.beneficios {
+  display: flex;
+  border-top: 2px solid #ff90d6;
+  border-bottom: 2px solid #ff90d6;
+  padding: 20px 0;
+}
+
+.beneficios .texto {
+  width: 70%;
+}
+
+.beneficios .titulo {
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Seção de Participação */
+.participacao {
+  display: flex;
+  border-bottom: 2px solid #ff90d6;
+  padding: 20px 0;
+}
+
+.participacao .item {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Estilo dos títulos */
+h1, h2 {
+  color: #d60087;
+}
